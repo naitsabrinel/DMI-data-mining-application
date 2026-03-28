@@ -1,12 +1,14 @@
 # DMI DATA MINING APP
 
 ## 📊 Overview
+---
 
 DMI is an interactive data mining application developed in Python that allows users to visually and quantitatively analyze data using both clustering and classification algorithms.
 It provides a complete pipeline from data loading → preprocessing → modeling (clustering & classification) → evaluation → visualization, all through an intuitive graphical interface.
 ---
 
 ## 🎯 Objectives
+---
 
 *Compare multiple clustering and classification algorithms
 *Visualize results in 2D and 3D
