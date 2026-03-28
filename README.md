@@ -2,20 +2,18 @@
 
 ## 📊 Overview
 
-**DMI* is an interactive data mining application developed in Python that allows users to **visually and quantitatively compare clustering algorithms**.
+DMI is an interactive data mining application developed in Python that allows users to visually and quantitatively analyze data using both clustering and classification algorithms.
 
-It provides a complete pipeline from **data loading → preprocessing → clustering → evaluation → visualization**, all through an intuitive graphical interface.
-
+It provides a complete pipeline from data loading → preprocessing → modeling (clustering & classification) → evaluation → visualization, all through an intuitive graphical interface.
 ---
 
 ## 🎯 Objectives
 
-* Compare multiple clustering algorithms
-* Visualize results in 2D and 3D
-* Evaluate performance using metrics
-* Provide an easy-to-use interface for data analysis
-* Support custom and predefined datasets
-
+*Compare multiple clustering and classification algorithms
+*Visualize results in 2D and 3D
+*Evaluate model performance using metrics
+*Provide an easy-to-use interface for data analysis
+*Support custom and predefined datasets
 ---
 
 ## 🛠️ Technologies Used
@@ -57,20 +55,25 @@ It provides a complete pipeline from **data loading → preprocessing → cluste
 
 ---
 
-### 📈 Clustering Algorithms
+### 📈 Clustering Algorithms(Unsupervised Learning)
 
 * K-Means
 * K-Medoids
 * Agglomerative (AGNES)
 * DIANA
 * DBSCAN
-
+  
+### Classification Algorithms (Supervised Learning)
+*k-Nearest Neighbors (k-NN)
+*Naive Bayes
+*Support Vector Machine (SVM)
 ---
 
 ### 📊 Analysis Tools
 
 * **Elbow Method** → Find optimal number of clusters
 * **Dendrogram** → Visualize hierarchical clustering
+* **Model Evaluation Metrics** → Assess classification performance
 
 ---
 
@@ -88,7 +91,7 @@ The app is organized into 5 main tabs:
 1. Welcome
 2. Preview
 3. Preprocessing
-4. Clustering
+4. Modeling (Clustering & Classification)
 5. Results
 
 ---
